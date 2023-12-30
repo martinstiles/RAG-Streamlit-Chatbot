@@ -1,0 +1,8 @@
+config.ini
+crawler/
+venv/
+.DS_Store
+test.py
+__pycache__
+crawler/all_hjerte_medisin_links.csv
+tmp.txt
