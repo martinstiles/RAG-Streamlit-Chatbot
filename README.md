@@ -1,6 +1,6 @@
 # RAG Streamlit Chatbot
 
-This repository serves as an example for creating a streamlit application. The goal is to be able to quickly spin up a RAG chatbot, (with a streamlit interface) that can answer questions about your data.
+This repository serves as an example for creating a streamlit application. The goal is to be able to quickly spin up a RAG chatbot (with a streamlit interface) that can answer questions about your data.
 
 ## Prerequisites
 
