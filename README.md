@@ -13,8 +13,8 @@ First, provide the key in a file you call `config.ini` in this format:
 api_key = <your_OpenAI_API_key>
 ```
 
-Then, you must prepare your data. Using Langchain, a locally stored vector database will be created from the data. See `src/create_vdb.py` for implementation. So in essence:
-1. Create a csv file where each row are text chunks, and contains the text in a column named "text".
+Then, you must prepare your data. Using Langchain, a locally stored vector database will be created from the data. See `src/create_vdb.py` for implementation. In essence:
+1. Create a csv file where each row is a text chunk, and the text chunk is in a column named "text".
 2. Name the file _<your_data>.csv_ and save it in the data folder.
 3. Set `KNOWLEDGE_BASE = "your_data"` in `create_vdb.py` and in `app.py`
 
@@ -33,9 +33,9 @@ git clone https://github.com/martinstiles/RAG-Streamlit-Chatbot
 cd RAG-Streamlit-Chatbot
 ```
 
-### Step 2: Activate Python Venv (optional)
+### Step 2: Activate Python Virtual Environment
 
-Initialize the python environment by running the following command inside the project folder.
+Initialize the python venv by running the following command inside the project folder.
 
 ```bash
 python -m venv venv
