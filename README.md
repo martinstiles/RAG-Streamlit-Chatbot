@@ -94,6 +94,8 @@ Once the image has been created, you can run a container locally by running:
 docker run -p 8501:8501 llm_demo
 ```
 
+You should then be able to see your application running on ```localhost:8501```.
+
 ## Security Concerns
 
 In general, you should never feed sensitive data into a public API. If you are trying to chat with your own private data and use a LLM API to accomplish it (like in this repo): make sure the data are non-sensitive.
